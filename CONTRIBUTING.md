@@ -1,7 +1,7 @@
 # CONTRIBUTING
 
 First of all, thank you for your attempt to improve soundfish.
-The follow paragraphs cover a few guidelines that contributors need to follow so that we can have a a chance of keeping on top of things.
+The follow paragraphs cover a few guidelines that contributors need to follow so that we can have a chance of keeping on top of things.
 
 ## Reporting An Issue
 If you are looking to raise an issue because you think you have found a problem,
