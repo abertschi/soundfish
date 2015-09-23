@@ -10,24 +10,6 @@
     </message>
 </context>
 <context>
-    <name>FirstPage</name>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="46"/>
-        <source>Show Page 2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="62"/>
-        <source>UI Template</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="66"/>
-        <source>Hello Sailors</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>SecondPage</name>
     <message>
         <location filename="../qml/pages/SecondPage.qml" line="42"/>

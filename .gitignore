@@ -1,3 +1,6 @@
+/reloadfile.jolla.json
+/reloadfile.emu.json
+/reloadfile.json
 # C++ objects and libs
 
 *.slo
@@ -10,6 +13,7 @@
 *.dll
 *.dylib
 
+/py/credentials.py
 # Qt-es
 
 /.qmake.cache
@@ -32,3 +36,10 @@ Makefile*
 #QtCtreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
+.idea
+third/soundcloud-0.4.1-py3.4.egg-info
+third/fudge-1.0.3-py3.4.egg-info
+third/simplejson-3.8.0-py3.4.egg-info
+third/fudge
+third/simplejson
+third/requests-2.7.0.dist-info
