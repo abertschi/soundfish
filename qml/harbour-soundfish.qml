@@ -35,8 +35,48 @@ import "pages"
 
 ApplicationWindow
 {
-    initialPage: Component { FirstPage { } }
+    id: app
+
+    initialPage: homePage
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
+
+    Component {
+        id: homePage
+        HomePage {}
+    }
+
+    Component {
+        id: authPage
+        AuthPage {}
+    }
+
+    Python {
+        id: py
+
+        Component.onCompleted: {
+            var pythonpath = Qt.resolvedUrl('../third');
+            console.log("importPath: " + pythonpath);
+            addImportPath( pythonpath);
+
+            pythonpath = Qt.resolvedUrl('../soundfish');
+            console.log("importPath: " + pythonpath);
+            addImportPath( pythonpath);
+
+            pythonpath = Qt.resolvedUrl('../src');
+            console.log("importPath: " + pythonpath);
+            addImportPath( pythonpath);
+        }
+
+         onError: {
+             console.log('python error: ' + traceback);
+         }
+
+         onReceived: {
+             // asychronous messages from Python arrive here
+             // in Python, this can be accomplished via pyotherside.send()
+             console.log('got message from python: ' + data);
+         }
+    }
 }
 
 
