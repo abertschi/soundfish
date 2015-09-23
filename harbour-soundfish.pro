@@ -16,16 +16,15 @@ CONFIG += sailfishapp
 
 SOURCES += src/soundfish.cpp
 
-OTHER_FILES += qml/main.qml \
-    qml/cover/CoverPage.qml \
-    qml/pages/FirstPage.qml \
-    qml/pages/SecondPage.qml \
+OTHER_FILES += qml/harbour-soundfish.qml \
+    qml/cover/*.qml \
+    qml/pages/*.qml \
     rpm/harbour-soundfish.changes.in \
     rpm/harbour-soundfish.spec \
-    rpm/harbour-soundfish.yaml \
     translations/*.ts \
     harbour-soundfish.desktop \
-    python/sc_test.py
+    soundfish/*
+    qml/pages/AuthPage.qml
 
 # to disable building translations every time, comment out the
 # following CONFIG line
@@ -44,9 +43,7 @@ include(third/soundcloud.pri)
 python_files.files = python
 python_files.path = /usr/share/$$TARGET
 
-third_requests_files.files = third/requests
-third_requests_files.path = /usr/share/$$TARGET/third
-third_soundcloud_files.files = third/soundcloud
-third_soundcloud_files.path = /usr/share/$$TARGET/third
+third_requests_files.files = third/
+third_requests_files.path = /usr/share/$$TARGET/
 
-INSTALLS += python_files third_requests_files third_soundcloud_files
+INSTALLS += python_files third_requests_files
