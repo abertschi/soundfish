@@ -58,7 +58,7 @@ ApplicationWindow
             console.log("importPath: " + pythonpath);
             addImportPath( pythonpath);
 
-            pythonpath = Qt.resolvedUrl('../soundfish');
+            pythonpath = Qt.resolvedUrl('../py');
             console.log("importPath: " + pythonpath);
             addImportPath( pythonpath);
 
