@@ -38,8 +38,12 @@ Makefile*
 *.qmlproject.user.*
 .idea
 third/soundcloud-0.4.1-py3.4.egg-info
+third/soundcloud-0.4.1-py3.5.egg-info
 third/fudge-1.0.3-py3.4.egg-info
+third/fudge-1.0.3-py3.5.egg-info
 third/simplejson-3.8.0-py3.4.egg-info
 third/fudge
 third/simplejson
 third/requests-2.7.0.dist-info
+
+third/simplejson-3.8.0-py3.5.egg-info

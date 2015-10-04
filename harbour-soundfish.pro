@@ -40,8 +40,8 @@ TRANSLATIONS += translations/harbour-soundfish-de.ts
 include(third/requests.pri)
 include(third/soundcloud.pri)
 
-python_files.files = python
-python_files.path = /usr/share/$$TARGET
+python_files.files = py/
+python_files.path = /usr/share/$$TARGET/
 
 third_requests_files.files = third/
 third_requests_files.path = /usr/share/$$TARGET/

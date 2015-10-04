@@ -10,15 +10,10 @@
     </message>
 </context>
 <context>
-    <name>SecondPage</name>
+    <name>HomePage</name>
     <message>
-        <location filename="../qml/pages/SecondPage.qml" line="42"/>
-        <source>Nested Page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SecondPage.qml" line="49"/>
-        <source>Item</source>
+        <location filename="../qml/pages/HomePage.qml" line="13"/>
+        <source>Sign In</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
