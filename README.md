@@ -1,3 +1,6 @@
+
+Development stopped. Similar project at https://github.com/lukedirtwalker/musikloud2/tree/sailfish_port
+
 # soundfish
 
 > A Soundcloud port for SailfishOS
